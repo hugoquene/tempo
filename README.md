@@ -15,15 +15,19 @@ This version has been modified by Hugo Quené (h.quene@uu.nl) in several ways:
 
 Sample of output:
 
+This was produced using intervals on tier 1 (which were created by choosing _Sound: To Textgrid (silences)..._ with default settings, which however are not optimal for this audio recording): 
 ```
-Sound w10118con converted to mono!
-# 
 # for entire Sound:
 # sound, textgrid, nsyll (syll), dur (s), tempo (syll/s), ASD (s/syll)
-w10118con_mono, w10118con, 2165, 912.491, 2.37, 0.421
+kh-ckh-20210921-idwt5havx-web-hd, kh-ckh-20210921-idwt5havx-web-hd, 3590, 1273.684, 2.82, 0.355
 # 
-# for intervals on tier 8 (IPUbs):
+# for intervals on tier 1 (silences):
 # sound, textgrid, intervaltier, interval, label, nsyll, dur, tempo (syll/s), ASD (s/syll)
-w10118con_mono, w10118con, 8, 1, , 832, 341.203, 2.44, 0.410
-w10118con_mono, w10118con, 8, 2, r_0118_c_a_ipu_bs_bp_1, 0, 1.672, 0, 0
+...
+kh-ckh-20210921-idwt5havx-web-hd, kh-ckh-20210921-idwt5havx-web-hd, 1, 9, silent, 0, 0.950, 0, 0
+kh-ckh-20210921-idwt5havx-web-hd, kh-ckh-20210921-idwt5havx-web-hd, 1, 10, sounding, 8, 2.040, 3.92, 0.255
+kh-ckh-20210921-idwt5havx-web-hd, kh-ckh-20210921-idwt5havx-web-hd, 1, 11, silent, 0, 1.490, 0, 0
+kh-ckh-20210921-idwt5havx-web-hd, kh-ckh-20210921-idwt5havx-web-hd, 1, 12, sounding, 12, 2.100, 5.71, 0.175
+kh-ckh-20210921-idwt5havx-web-hd, kh-ckh-20210921-idwt5havx-web-hd, 1, 13, silent, 2, 1.140, 1.75, 0.570
+kh-ckh-20210921-idwt5havx-web-hd, kh-ckh-20210921-idwt5havx-web-hd, 1, 14, sounding, 6, 1.540, 3.90, 0.257
 ```
