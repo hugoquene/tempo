@@ -1,8 +1,11 @@
 # tempo
+
 speech tempo measurement in Praat
 
 This is a modified version of the script named Praat Script Syllable Nuclei 
 Copyright (C) 2008  Nivja de Jong and Ton Wempe
+
+The script only works with Praat software (www.praat.org). 
 
 This version has been modified by Hugo Quené (h.quene@uu.nl) in several ways:
 - 2010: arguments are pre-set within the script
