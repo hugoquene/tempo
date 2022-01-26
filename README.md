@@ -5,13 +5,14 @@ Brief description: script for measuring speech tempo in Praat.
 This is a modified version of the script named "Praat Script [for] Syllable Nuclei",  
 Copyright (C) 2008  Nivja de Jong and Ton Wempe.
 
-The script was originally reported in:
+The originaal script was reported in:
 
 De Jong, N.H. & Wempe, T. (2009). 
 Praat script to detect syllable nuclei and measure speech rate automatically. 
-Behavior Research Methods volume 41, pages 385–390.
+Behavior Research Methods, volume 41, pages 385–390.
 
-The script creates an intensity contour of a speech fragment, and then looks for peaks in the intensity contour, which presumably coincide with nuclei of syllables in the speech sound. Tempo is then expressed as the number of syllables per second (syll/s) or as the "average syllable duration" (ASD, s/syll). 
+The modified script creates an intensity contour of a speech fragment (a Sound must have been selected before calling the script), and then looks for peaks in the intensity contour, which presumably coincide with nuclei of syllables in the speech sound. The syllable nuclei are collected as points in a new "point tier" added at the bottom of the TextGrid (the TextGrid associated with the Sound must also have been selected before calling the script). 
+Tempo is then expressed as the number of syllables per second (syll/s) or as the "average syllable duration" (ASD, s/syll), for each interval of a particular interval tier of the TextGrid. 
 
 The version in this repository has been modified by Hugo Quené (h.quene@uu.nl) in several ways:
 - 2010: arguments are pre-set within the script
@@ -19,11 +20,11 @@ The version in this repository has been modified by Hugo Quené (h.quene@uu.nl) 
 - 2010: several changes in audio measurements
 - 2022: does not only work on entire file but also reports tempo for each interval of interval tier of associated TextGrid
 
-The script requires Praat (www.praat.org) to run. 
+The script requires a running instance of Praat (www.praat.org). 
 
 ## Sample of output:
 
-This output was produced using intervals on tier 1 (which were created by choosing _Sound: To Textgrid (silences)..._ with default settings, which however are not optimal for this audio recording): 
+This output was produced using intervals on tier 1 (the interval tier was created by choosing _Sound: To Textgrid (silences)..._ with default settings, which however are not optimal for this example speech recording): 
 ```
 # for entire Sound:
 # sound, textgrid, nsyll (syll), dur (s), tempo (syll/s), ASD (s/syll)
