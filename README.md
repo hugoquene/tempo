@@ -1,21 +1,29 @@
 # tempo
 
-speech tempo measurement in Praat
+Brief description: script for measuring speech tempo in Praat. 
 
-This is a modified version of the script named Praat Script Syllable Nuclei 
-Copyright (C) 2008  Nivja de Jong and Ton Wempe
+This is a modified version of the script named "Praat Script [for] Syllable Nuclei",  
+Copyright (C) 2008  Nivja de Jong and Ton Wempe.
 
-The script only works with Praat software (www.praat.org). 
+The script was originally reported in:
 
-This version has been modified by Hugo Quené (h.quene@uu.nl) in several ways:
+De Jong, N.H. & Wempe, T. (2009). 
+Praat script to detect syllable nuclei and measure speech rate automatically. 
+Behavior Research Methods volume 41, pages 385–390.
+
+The script creates an intensity contour of a speech fragment, and then looks for peaks in the intensity contour, which presumably coincide with nuclei of syllables in the speech sound. Tempo is then expressed as the number of syllables per second (syll/s) or as the "average syllable duration" (ASD, s/syll). 
+
+The version in this repository has been modified by Hugo Quené (h.quene@uu.nl) in several ways:
 - 2010: arguments are pre-set within the script
 - 2010: script does not loop over all files in directory, only applies on interactively selected Sound
 - 2010: several changes in audio measurements
 - 2022: does not only work on entire file but also reports tempo for each interval of interval tier of associated TextGrid
 
-Sample of output:
+The script requires Praat (www.praat.org) to run. 
 
-This was produced using intervals on tier 1 (which were created by choosing _Sound: To Textgrid (silences)..._ with default settings, which however are not optimal for this audio recording): 
+## Sample of output:
+
+This output was produced using intervals on tier 1 (which were created by choosing _Sound: To Textgrid (silences)..._ with default settings, which however are not optimal for this audio recording): 
 ```
 # for entire Sound:
 # sound, textgrid, nsyll (syll), dur (s), tempo (syll/s), ASD (s/syll)
