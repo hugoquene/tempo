@@ -5,7 +5,7 @@ Brief description: script for measuring speech tempo in Praat.
 This is a modified version of the script named "Praat Script [for] Syllable Nuclei",  
 Copyright (C) 2008  Nivja de Jong and Ton Wempe.
 
-The originaal script was reported in:
+The original script was reported in:
 
 De Jong, N.H. & Wempe, T. (2009). 
 Praat script to detect syllable nuclei and measure speech rate automatically. 
