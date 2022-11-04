@@ -29,6 +29,8 @@ This output was produced using intervals on tier 1 (the interval tier was create
 # for entire Sound:
 # sound, textgrid, nsyll (syll), dur (s), tempo (syll/s), ASD (s/syll)
 kh-ckh-20210921-idwt5havx-web-hd, kh-ckh-20210921-idwt5havx-web-hd, 3590, 1273.684, 2.82, 0.355
+# according to this script, the recording has 3590 syllables in 1274 seconds,
+# which amounts to 2.82 syll/s, and an average syll duration of 0.355 seconds
 # 
 # for intervals on tier 1 (silences):
 # sound, textgrid, intervaltier, interval, label, nsyll, dur, tempo (syll/s), ASD (s/syll)
