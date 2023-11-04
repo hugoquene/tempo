@@ -1,0 +1,35 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: tempobyinterval
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Hugo
+    family-names: Quené
+    email: h.quene@uu.nl
+    affiliation: Utrecht University
+    orcid: 'https://orcid.org/0000-0001-7988-1346'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.7288542
+repository-code: 'https://github.com/hugoquene/tempo'
+abstract: >+
+  Script for measuring speech tempo in Praat
+  (www.praat.org).
+
+  This is a modified version of the script named "Praat
+  Script [for] Syllable Nuclei" (copyright (C) 2008 Nivja de Jong and Ton Wempe).
+
+keywords:
+  - speech rate
+  - speaking rate
+  - tempo
+  - syllable nuclei
+  - syllable detector
+license: GPL-3.0-or-later
+version: 1.2.0
+date-released: '2022-11-04'
